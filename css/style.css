@@ -82,6 +82,7 @@ body{
 .options-home-logo span{
   color: var(--grey-text);
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .options-home-logo{
@@ -161,7 +162,7 @@ body{
 
 }
 
-.bar-generi a:hover{
+.bar-generi a:hover, .options-home-logo span:hover{
   color: white;
 }
 
