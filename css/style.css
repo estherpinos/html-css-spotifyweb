@@ -58,6 +58,37 @@ body{
   width: 100%;
 }
 
+/* LOGO SPOTIFY */
+.logo-big{
+  margin: 5px 0;
+  width: 80%;
+}
+
+.logo-small{
+  display: none;
+  width: 100%;
+  margin: 5px 0;
+}
+
+/* MENU HOME/CERCA... */
+
+ 
+.options-home-logo img{
+  width: 30px;
+  vertical-align: middle;
+}
+
+.options-home-logo span{
+  color: white;
+  vertical-align: middle;
+}
+
+.options-home-logo{
+  padding: 10px 0;
+}
+
+
+
 .installa{
   height: 60px;
   width: 100%;
@@ -85,7 +116,6 @@ body{
 .login-bar{
   z-index: 100;
   height: 70px;
-  width: calc(100% - 225px);
   position: fixed;
   top: 0;
   right: 0;
@@ -189,6 +219,10 @@ body{
     padding: 0 20px;
   }
 
+  .login-bar{
+    width: calc(100% - 225px);
+  }
+
   
   
 }
@@ -202,6 +236,10 @@ body{
     width: 225px;
     padding: 0 20px;  
   }
+
+  .login-bar{
+    width: calc(100% - 225px);
+  }
 }
 
 @media (min-width:601px) and (max-width:700px){
@@ -209,6 +247,10 @@ body{
     width: 225px;
     padding: 0 20px;
     
+  }
+
+  .login-bar{
+    width: calc(100% - 225px);
   }
 }
 
@@ -219,17 +261,31 @@ body{
 }
 
 @media (max-width:600px){
+
+  /* HOME MENU LEFT */
   .mobile{
     display: none;
   }
 
+  .logo-big{
+    display: none;
+  }
+
+  .logo-small{
+    display: block;
+  }
+
   .menu-music{
-    width: 40px;
+    width: 50px;
     padding: 5px;
   }
 
   .option-music{
-    width: calc(100% - 40px);
+    width: calc(100% - 50px);
+  }
+
+  .login-bar{
+    width: calc(100% - 50px);
   }
 }
   
