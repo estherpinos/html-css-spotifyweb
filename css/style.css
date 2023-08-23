@@ -51,10 +51,7 @@ body{
 
 /* SECTION MUSIC MENU */
 
-.menu-music{
-  width: 225px;
-  padding: 0 20px;
-}
+
 
 .home{
   height: calc(100vh - 60px);
@@ -64,11 +61,17 @@ body{
 .installa{
   height: 60px;
   width: 100%;
-  bottom:50px
+  bottom:50px;
+  
+}
+
+.nome-playlist li{
+  list-style: none; 
+  
 }
 
 .nome-playlist{
-  overflow-y: scroll;
+  overflow: auto;
 }
 
 
@@ -132,7 +135,7 @@ body{
 
 /* CARDS RECENTLY */
 
-.title-recently{
+.title-cards {
   margin:5px 30px;
 }
 
@@ -181,6 +184,11 @@ body{
     width: calc((100% - 120px) / 6);
   }
 
+  .menu-music{
+    width: 225px;
+    padding: 0 20px;
+  }
+
   
   
 }
@@ -189,11 +197,39 @@ body{
   .card{
     width: calc((100% - 80px) / 4);
   }
+
+  .menu-music{
+    width: 225px;
+    padding: 0 20px;  
+  }
+}
+
+@media (min-width:601px) and (max-width:700px){
+  .menu-music{
+    width: 225px;
+    padding: 0 20px;
+    
+  }
 }
 
 @media screen and (max-width:700px){
   .card{
     width: calc((100% - 40px) / 2);
+  }
+}
+
+@media (max-width:600px){
+  .mobile{
+    display: none;
+  }
+
+  .menu-music{
+    width: 40px;
+    padding: 5px;
+  }
+
+  .option-music{
+    width: calc(100% - 40px);
   }
 }
   
