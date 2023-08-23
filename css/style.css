@@ -76,10 +76,11 @@ body{
 .options-home-logo img{
   width: 30px;
   vertical-align: middle;
+  
 }
 
 .options-home-logo span{
-  color: white;
+  color: var(--grey-text);
   vertical-align: middle;
 }
 
