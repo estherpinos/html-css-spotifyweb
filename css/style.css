@@ -132,6 +132,10 @@ body{
 
 /* CARDS RECENTLY */
 
+.title-recently{
+  margin:5px 30px;
+}
+
 .cards{
   background-color: red;
   width: 100%;
@@ -142,9 +146,8 @@ body{
 .card{
   margin: 10px;
   aspect-ratio: 1.1;
+  
 }
-
-
 
 
 
@@ -167,8 +170,9 @@ body{
   
   .card{
     width: calc((100% - 120px) / 6);
-    
   }
+
+  
   
 }
 
