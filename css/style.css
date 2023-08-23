@@ -167,6 +167,9 @@ body{
 
 .title-cards {
   margin:5px 30px;
+  display: inline-block;
+  font-size: 15px;
+  color: white;
 }
 
 .cards{
