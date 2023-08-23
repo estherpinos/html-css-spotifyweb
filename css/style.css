@@ -1,0 +1,32 @@
+
+*{
+  margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+ }
+
+/* UTILITIES */
+
+.dflex{
+  display: flex;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+:root{
+  --grey-text:#A3A3A3;
+  --green:#B3FF31;
+  --black:#141922;
+}
