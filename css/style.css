@@ -145,8 +145,17 @@ body{
 
 .card{
   margin: 10px;
-  aspect-ratio: 1.1;
   
+}
+
+.img-card{
+  aspect-ratio: 1.1;
+  text-align: center;
+}
+
+.text-card{
+  text-align: center;
+  padding: 5px 2px;
 }
 
 
