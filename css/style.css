@@ -30,3 +30,37 @@ body{
   --green:#B3FF31;
   --black:#141922;
 }
+
+.debug{
+  background-color: yellowgreen;
+  border: 1px solid black;
+
+
+}
+
+/* SECTION MUSIC */
+
+.section-music{
+  height: calc(100vh - 100px);
+  width: 100%;
+}
+
+.menu-music{
+  width: 225px;
+  
+}
+
+.option-music{
+  width: calc(100% - 225px);
+  overflow: scroll;
+}
+
+/* SECTION-PLAY */
+
+.section-play{
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 0; 
+
+}
