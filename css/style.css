@@ -120,6 +120,7 @@ body{
   top: 0;
   right: 0;
   text-align: end;
+  background-color:black;
 }
 
 .option-music .btn{
@@ -155,7 +156,12 @@ body{
   cursor: pointer;
   padding-left: 15px;
   flex-wrap: wrap;
+  cursor: pointer;
 
+}
+
+.bar-generi a:hover{
+  color: white;
 }
 
 .bar-generi a{
