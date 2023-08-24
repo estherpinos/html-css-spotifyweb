@@ -64,7 +64,7 @@ body{
 
 
 .home{
-  height: calc(100% - 60px);
+  height: calc(100% - 80px);
   width: 100%;
 }
 
@@ -104,7 +104,7 @@ body{
 
 
 .installa{
-  height: 60px;
+  height: 80px;
   width: 100%;
   bottom:60px; 
 }
@@ -161,6 +161,58 @@ body{
   overflow: auto;
   
 }
+
+/* INSTALLA */
+
+.installa-app{
+  height: 50%;
+  padding: 10px 0;
+  display: inline-flex;
+  align-items: center;
+  color: var(--grey-text);
+  font-size: 15px;
+  border-bottom: 1px solid var(--grey-text);
+  cursor: pointer;
+}
+
+.installa-app p:hover{
+  color: white;
+}
+
+.installa-app img{
+  width: 20px;
+  margin-right: 10px;
+  margin-left: 3px;
+  fill-opacity: var(--grey-text);
+}
+
+.circle-john{
+  background-color: var(--grey-text);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  justify-content: center;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.johndoe{
+  padding: 10px 0;
+  height: 50%;
+}
+
+.johndoe img{
+  width: 15px;
+  fill-opacity: var(--grey-text); 
+}
+
+.johndoe p{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
 
 /* HOVER */
 
@@ -441,6 +493,10 @@ body{
 
   .login-bar{
     width: calc(100% - 50px);
+  }
+
+  .installa-app{
+    border: none;
   }
 }
   
