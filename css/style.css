@@ -411,12 +411,25 @@ body{
 
 .play-options-play{
   width: 40%;
+  height: 100%;
   justify-content: center;
  
 }
 
 .icons-player{
   height: 60%;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-player i{
+  margin: 0 10px;
+  font-size: x-large;
+}
+
+.icons-player i:nth-child(3){
+  padding: 0 10px;
 }
 
 .icons-player, .bar-player{
@@ -425,7 +438,7 @@ body{
 
 .bar-player{
   justify-content: center;
-  height: 20px;
+  height: 40%;
   align-items: center;
 }
 
@@ -452,13 +465,38 @@ body{
   position: absolute;
 }
 
-.bar-player-white:hover{
+.bar-green-player{
+  height: 100%;
+  align-items: center;
+  opacity: 0;
+}
+
+.green-bar{
+  width: 30%;
+  left: 0;
+  height: 5px;
+  border-radius: 5px;
   background-color: var(--green);
+  position: absolute;
+}
+
+.ball-player{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left: 28%;
+  
 }
 
 .bar-player p{
   font-size: 15px;
   color: white;
+}
+
+.bar-player:hover .bar-green-player{
+  opacity: 1;
 }
 
 
