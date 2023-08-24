@@ -191,8 +191,11 @@ body{
   color: white;
 }
 
+.title-cards p{
+  padding: 10px;
+}
+
 .cards{
-  background-color: red;
   width: 100%;
   padding: 15px;
   flex-wrap: wrap;
