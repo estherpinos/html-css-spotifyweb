@@ -124,6 +124,7 @@ body{
 .option-music{
   width: calc(100% - 225px);
   overflow: auto;
+  background-color: var(--black);
 }
 
 .login-bar{
@@ -153,6 +154,10 @@ body{
   justify-content: end;
 }
 
+.btn-content:hover{
+  zoom: 1.1;
+}
+
 /* GENERI-MENU */
 
 .bar-generi{
@@ -180,6 +185,7 @@ body{
 .bar-generi a{
   text-decoration: none;
   color: var(--grey-text);
+  font-size: 15px;
 }
 
 /* CARDS RECENTLY */
@@ -193,6 +199,7 @@ body{
 
 .title-cards p{
   padding: 10px 0;
+  color: var(--grey-text);
 }
 
 .cards{
@@ -220,6 +227,10 @@ body{
 .img-card img{
   width: 100%;
  
+}
+
+.artisti img{
+  border-radius: 50%;
 }
 
 .play-hover{
