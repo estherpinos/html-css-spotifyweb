@@ -391,6 +391,9 @@ body{
 
 
 
+
+
+
 /* SECTION-PLAY */
 
 .section-play{
@@ -409,6 +412,30 @@ body{
 .play-options-play{
   width: 40%;
   justify-content: center;
+ 
+}
+
+.icons-player, .bar-player{
+  width: 100%;
+}
+
+.bar-player{
+  justify-content: center;
+  height: 20px;
+  align-items: center;
+}
+
+.bars-player{
+  margin: 0 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.bar-player-grey{
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  background-color: var(--grey-text);
 }
 
 
