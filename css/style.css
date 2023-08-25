@@ -509,6 +509,19 @@ body{
   opacity: 1;
 }
 
+/* VOLUME */
+
+.play-options-volume i{
+  padding: 10px;
+  font-size: 18px;
+}
+
+.play-options-volume .bar-player-grey{
+  width: 120px;
+  height: 5px;
+  background-color: var(--grey-text);
+}
+
 
 
 
