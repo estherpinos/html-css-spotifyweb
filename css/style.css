@@ -341,11 +341,12 @@ body{
 }
 
 .img-card{
-  width: 100%; 
+  width: 100%;
 }
 
 .img-card img{
   width: 100%;
+  aspect-ratio: 1.1;
  
 }
 
@@ -353,9 +354,9 @@ body{
   border-radius: 50%;
 }
 
-.play-hover{
+ .cards .play-hover{
   width: 100%;
-  height: 76%;
+  aspect-ratio: 1.1;
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -363,10 +364,6 @@ body{
   left: 0;
   opacity: 0;
   background-color: rgba(0, 0, 0, 0.479);
-}
-
-.creato-per .play-hover{
-  height: 84%;
 }
 
 .card:hover .play-hover{
@@ -393,17 +390,50 @@ body{
   margin-top: 5px;
 }
 
+/* SECTION SONG */
 
 
+.play-options-song, .play-options-volume{
+  width: 225px;
+  justify-content: space-around;
+}
+.sinister, .sinister-left, .sinister-right, .options-sinister{
+  height: 100%;
+  text-align: center;
+}
 
+.sinister-left img{
+  width: 50px;
+  margin-right: 10px;
+}
 
+.sinister-right{
+  justify-content: center;
+  text-align: left;
+}
 
+.sinister-right h3{
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.sinister-right h4{
+  font-size: 12px;
+  color: #A3A3A3;
+}
+
+.options-sinister a i{
+  padding: 0 5px;
+  flex-wrap: wrap;
+}
 
 
 
 
 
 /* SECTION-PLAY */
+
 
 .section-play{
   height: 100px;
@@ -433,13 +463,27 @@ body{
   align-items: center;
 }
 
+.icons-player li {
+  list-style: none;
+  display: inline-block;
+}
+
 .icons-player i{
   margin: 0 10px;
   font-size: x-large;
 }
 
-.icons-player i:nth-child(3){
+.icons-player ul li{
+  cursor: pointer;
+}
+
+.icons-player ul li .button-play{
   padding: 0 10px;
+  font-size: 30px;
+}
+
+.icons-player ul li:hover{
+  scale: 1.2;
 }
 
 .icons-player, .bar-player{
@@ -516,8 +560,12 @@ body{
   font-size: 18px;
 }
 
+.play-options-volume i:hover{
+  scale: 1.1;
+}
+
 .play-options-volume .bar-player-grey{
-  width: 120px;
+  width: 80px;
   height: 5px;
   background-color: var(--grey-text);
 }
