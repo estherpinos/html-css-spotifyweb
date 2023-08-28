@@ -298,6 +298,18 @@ body{
 
 }
 
+ .bar-generi ul li .underline-hover{
+  width: 30px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: 3px;
+  background-color: transparent;
+}
+
+.bar-generi nav ul li:hover .underline-hover{
+  background-color: var(--green);
+}
+
 .bar-generi a:hover, .options-home-logo span:hover{
   color: white;
 }
@@ -388,6 +400,38 @@ body{
   font-size: 74%;
   color: var(--grey-text);
   margin-top: 5px;
+}
+
+
+#check{
+  display: none;
+}
+
+
+label{
+  padding: 20px 30px;
+  font-size: 15px;
+  cursor: pointer;
+  display: none;
+  color: white;
+}
+
+label:before{
+  content: "Mostra di più";
+}
+
+input[type="checkbox"]:checked ~ label:before{
+  content: "Mostra meno";
+}
+
+#check:checked + .hola {
+  display:block;}
+.hola{
+  display:none;}
+
+
+label{
+  display: block;
 }
 
 /* SECTION SONG */
@@ -599,6 +643,9 @@ body{
     width: calc((100% - 80px) / 4);
   }
 
+  
+
+  
   .menu-music{
     width: 225px;  
   }
