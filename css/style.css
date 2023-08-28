@@ -45,13 +45,6 @@ body{
 }
 
 
-.debug{
-  background-color: yellowgreen;
-  border: 1px solid black;
-
-
-}
-
 /* SECTION MUSIC */
 .section-music{
   height: calc(100vh - 100px);
@@ -60,8 +53,6 @@ body{
 }
 
 /* SECTION MUSIC MENU */
-
-
 
 .home{
   height: calc(100% - 80px);
@@ -110,8 +101,6 @@ body{
 
 }
 
-
-
 .installa{
   height: 80px;
   padding-left: 20px;
@@ -129,7 +118,6 @@ body{
   padding: 10px 0;
   display: inline-flex;
   align-items: center;
-
 }
 
 .plus-bar{
@@ -246,6 +234,8 @@ body{
   background-color: var(--black);
 }
 
+/* LOGIN BAR */
+
 .login-bar{
   z-index: 100;
   height: 70px;
@@ -277,7 +267,7 @@ body{
   zoom: 1.1;
 }
 
-/* GENERI-MENU */
+/* GENERI MENU */
 
 .bar-generi{
   margin-top: 68px;
@@ -347,13 +337,9 @@ body{
 }
 
 .img-card{
-  
+  width: 100%;
   text-align: center;
   cursor: pointer;
-}
-
-.img-card{
-  width: 100%;
 }
 
 .img-card img{
@@ -366,7 +352,9 @@ body{
   border-radius: 50%;
 }
 
- .cards .play-hover{
+/* HOVER PLAY */
+
+.img-card .play-hover{
   width: 100%;
   aspect-ratio: 1.1;
   position: absolute;
@@ -424,15 +412,6 @@ input[type="checkbox"]:checked ~ label:before{
   content: "Mostra meno";
 }
 
-#check:checked + .hola {
-  display:block;}
-.hola{
-  display:none;}
-
-
-label{
-  display: block;
-}
 
 /* SECTION SONG */
 
@@ -643,7 +622,17 @@ label{
     width: calc((100% - 80px) / 4);
   }
 
-  
+  .card:nth-child(5){
+    
+  }
+
+  #check:checked + .card:nth-child(5) {
+    display: block;
+  }
+
+  label{
+    display: block;
+  }
 
   
   .menu-music{
